@@ -38,8 +38,8 @@ The Blood Bond Society web application includes the following features:
 
 Before you can run the web application, you need to have the following software and tools installed:
 
-- Node.js
-- npm (Node Package Manager)
+- python
+- streamlit
 - MongoDB (or an alternative database)
 
 ## Installation
@@ -61,7 +61,7 @@ cd blood-bond-society
 3. Install the required dependencies:
 
 ```bash
-npm install
+pip install streamlit
 ```
 
 4. Configure the application by creating a `.env` file in the project root and specifying the required environment variables (e.g., database connection details, secret keys).
@@ -69,7 +69,7 @@ npm install
 5. Start the application:
 
 ```bash
-npm start
+streamlit run blood.py
 ```
 
 The application will be accessible at `http://localhost:3000` by default.
